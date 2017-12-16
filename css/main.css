@@ -99,7 +99,7 @@ input[type=search]:focus {
     color: black;
 }
 
-nav .brand-logo {
+nav .cards-logo {
     color: #000; 
 }
 
@@ -108,15 +108,37 @@ nav .brand-logo {
      width: 150px !important;
      padding-right: 20px;
     padding-left: 20px;
+    margin: auto;
+    height: 175px;
  }
 
 .item-card{
-    width:175px !important;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 75px !important;
-    margin-right: 75px !important;
+   
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 .cards{
     text-align: center;
 }
+
+.card-title{
+line-height: 1px !important;
+}
+
+.item-title{
+    font:bold 10px Courier ;
+}
+
+.black{
+    color: black;
+}
+.item-title{
+    font:bold 10px Courier ;
+}
+
+.retail {
+    width: 10px !important;
+    max-width: 100% !important;
+}
+
+
